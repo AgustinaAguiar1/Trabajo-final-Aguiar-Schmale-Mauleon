@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/contacto.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li> <a href="./index.html"> Inicio</a> </li>
+                    <li> <a href="./productos.html"> Productos </a></li>
+                    <li> <a href="./contacto.html"> Contacto </a></li>
+                </ul>
+
+
+
+            </nav>
+
+        </div>
+
+        <div>
+            <h1 class="titulo">SUPERMERCADO "DON POPEYE" </h1>
+
+        </div>
+
+    </header>
+
+    <form id="formulario">
+        <div class="contenedor">
+            <p class="planilla"> Formulario de contacto</p>
+            <div class="nombre">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Nombre" class="nombre__input" required>
+
+            </div>
+            <div class="apellido">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" placeholder="Apellido" class="apellido__input" required>
+                <div>
+
+                </div>
+            </div>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Email" class="email__input" required>
+
+            </div>
+            <div class="telefono">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" placeholder="Telefono" class="telefono__input" required>
+
+            </div>
+            <div class="comentario">
+                <label for="comentario">Dejanos tu comentario:</label>
+                <textarea id="comentario" name="comentario_text_area" placeholder="Compartí acá tu comentario"
+                    maxlength="400" class="comentario__input" required></textarea>
+
+            </div>
+            <div class="btn__contenedor">
+                <button id="enviar">Enviar </button>
+            </div>
+        </div>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <pie>
+        <div class="pie">
+            <p>&copy 2024 "Don Popeye". Todos los derechos reservados.</p>
+            <p>Desarrollado por Genaro Mauleon y Agustina Aguiar Schmale</p>
+            <p> Correo electronico: donpopeye@gmail.com.ar / Telefono: 2284-5566899</p>
+            <img class="img-logo" src="./imagenes/popeye.png" alt="logo">
+        </div>
+
+
+
+    </pie>
+
+</body>
+
+</html>
